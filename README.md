@@ -68,7 +68,7 @@ git clone https://github.com/joaopsilvam/esig-atividade-tecnica
 3. **Configure o banco Oracle:**
    - Crie o usuário: `joaopsilvam`
    - Execute os scripts de criação de tabelas e `procedure` disponíveis
-   - Atualize a string de conexão, se necessário, em `Web.config` e no `RelatorioSalariosPage.aspx.cs`:
+   - Atualize a string de conexão do banco nas páginas:
 
 ```csharp
 string connString = "User Id=joaopsilvam;Password=123456;Data Source=localhost:1521/XEPDB1";
