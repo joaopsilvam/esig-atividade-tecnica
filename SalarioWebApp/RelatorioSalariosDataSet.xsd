@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RelatorioSalariosDataSet" targetNamespace="http://tempuri.org/RelatorioSalariosDataSet.xsd" xmlns:mstns="http://tempuri.org/RelatorioSalariosDataSet.xsd" xmlns="http://tempuri.org/RelatorioSalariosDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RelatorioSalariosDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="RelatorioSalariosDataSet" msprop:Generator_DataSetName="RelatorioSalariosDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TabelaSalarios" msprop:Generator_RowEvHandlerName="TabelaSalariosRowChangeEventHandler" msprop:Generator_RowDeletedName="TabelaSalariosRowDeleted" msprop:Generator_RowDeletingName="TabelaSalariosRowDeleting" msprop:Generator_RowEvArgName="TabelaSalariosRowChangeEvent" msprop:Generator_TablePropName="TabelaSalarios" msprop:Generator_RowChangedName="TabelaSalariosRowChanged" msprop:Generator_RowChangingName="TabelaSalariosRowChanging" msprop:Generator_TableClassName="TabelaSalariosDataTable" msprop:Generator_RowClassName="TabelaSalariosRow" msprop:Generator_TableVarName="tableTabelaSalarios" msprop:Generator_UserTableName="TabelaSalarios">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nome_pessoa" msprop:Generator_ColumnPropNameInRow="nome_pessoa" msprop:Generator_ColumnPropNameInTable="nome_pessoaColumn" msprop:Generator_ColumnVarNameInTable="columnnome_pessoa" msprop:Generator_UserColumnName="nome_pessoa" type="xs:string" minOccurs="0" />
+              <xs:element name="nome_cargo" msprop:Generator_ColumnPropNameInRow="nome_cargo" msprop:Generator_ColumnPropNameInTable="nome_cargoColumn" msprop:Generator_ColumnVarNameInTable="columnnome_cargo" msprop:Generator_UserColumnName="nome_cargo" type="xs:string" minOccurs="0" />
+              <xs:element name="salario_bruto" msprop:Generator_ColumnPropNameInRow="salario_bruto" msprop:Generator_ColumnPropNameInTable="salario_brutoColumn" msprop:Generator_ColumnVarNameInTable="columnsalario_bruto" msprop:Generator_UserColumnName="salario_bruto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="descontos" msprop:Generator_ColumnPropNameInRow="descontos" msprop:Generator_ColumnPropNameInTable="descontosColumn" msprop:Generator_ColumnVarNameInTable="columndescontos" msprop:Generator_UserColumnName="descontos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="salario_liquido" msprop:Generator_ColumnPropNameInRow="salario_liquido" msprop:Generator_ColumnPropNameInTable="salario_liquidoColumn" msprop:Generator_ColumnVarNameInTable="columnsalario_liquido" msprop:Generator_UserColumnName="salario_liquido" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
